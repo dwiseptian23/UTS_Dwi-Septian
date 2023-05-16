@@ -24,7 +24,7 @@ public class angka_random {
             }
         }
         if(duplikat>0){
-            System.out.println("\n\n\nAda Angka Yang Sama\n\n\n");
+            System.out.println("\n\n\nTrue\n\n\n");
             for( a=0; a < angka.size(); a++){
                  frekuensi = 1;
                  for( j=a+1; j<angka.size(); j++){
@@ -42,7 +42,7 @@ public class angka_random {
              }
         }
         else{
-            System.out.println("\n\n\nTidak Ada Angka Yang Sama\n\n\n");
+            System.out.println("\n\n\nFalse\n\n\n");
         }
      }
         
